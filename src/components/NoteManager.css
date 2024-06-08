@@ -1,0 +1,123 @@
+.note-manager {
+    padding: 20px;
+    margin-left: 160px;
+}
+
+.notes-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h3 {
+    text-align: center;
+    z-index: 999;
+    font-size: 2em;
+}
+
+.note {
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 250px;
+    width: 260px;
+}
+
+.note .date {
+    font-size: 0.8em;
+    color: #666;
+    font-weight: 500;
+}
+
+.bottomNote {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.note-actions2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #666;
+
+}
+
+.edit,
+.save2 {
+    margin-right: 10px;
+}
+
+.edit,
+.save2,
+.delete {
+    background-color: black;
+    color: #fff;
+    border-radius: 50%;
+    padding: 12px 12px;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.data {
+    font-weight: 600;
+    height: 175px;
+}
+
+.label {
+    font-size: 0.8em;
+}
+
+.note textarea {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    width: 200px;
+    font-weight: 600;
+    height: 180px;
+    box-sizing: border-box;
+}
+
+.pin {
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    padding: 12px 14px;
+    font-size: 0.8em;
+    transform: rotate(40deg);
+}
+
+.pinned {
+    color: gold;
+    transform: rotate(40deg);
+}
+
+.pagination {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.page {
+    background-color: transparent;
+    color: #686868;
+    font-size: 1.3em;
+    padding: 8px 15px;
+    border-radius: 50%;
+    font-weight: 600;
+}
+
+.page:hover {
+    color: #000;
+    background-color: #c4c4c4;
+    transition: 0.5s ease-in-out;
+}
